@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/backend-myeventdbdbserver/databases/MyEventDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AzureConnStr",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/backenddbserver10238/databases/Backend_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ConnStr",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

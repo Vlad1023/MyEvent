@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2022-06-14T11:26:09.7727641Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-06-13T20:02:09.255773Z"
+    }
+  },
+  "parameters": {
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "1fd7d5e3-853a-4f65-af8e-8702edc9e8c4"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Diploma"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "1fd7d5e3-853a-4f65-af8e-8702edc9e8c4"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Diploma"
+    }
+  }
+}

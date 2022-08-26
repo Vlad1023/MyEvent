@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACL64Atw4O0e4f5bK1kmzJgAAAAACAAAAAAAQZgAAAAEAACAAAADjx/cSEpc6eMn1s1wiqZbaDMbLOedEC5cBsfrplwasXAAAAAAOgAAAAAIAACAAAAB3Q0iY9nQsvijSSYRu3sqnJQCDKKgF4r4XJvOrATulzIAAAAD/yj5JGolYrIYMXMVsmcl5Pw30vEmcXZ0ldudyS5UnDD+gQpuG+UCl0d7CdcoeenTsVS2/WsNVHp6KBujdAbRdM1qjaABDKD2NrHriKjVxwAo6/si2jwiTiGOav+4D1vaKsO2r9LD26VpEKjXzfwiXN9Xy0HLZB/x/UfUQu4VNYkAAAAD5x4MRL4osYt6m4WY/AiQLpPsk524bvnxQSN2xU+NE1IGG4O+E7EpLQ2Dh2q/u+21UGlcNhHGjzVBpYRTzKsE4</EncryptedPassword>
+    <History>False|2022-06-14T14:25:54.9153617Z;True|2022-06-14T16:46:03.6762184+03:00;True|2022-06-14T16:23:56.8170165+03:00;True|2022-06-14T16:08:09.8912198+03:00;True|2022-06-14T14:35:08.8484350+03:00;True|2022-06-14T14:29:35.0228045+03:00;True|2022-06-14T02:58:33.2415272+03:00;False|2022-06-14T02:56:20.7505963+03:00;False|2022-06-14T02:53:18.2887860+03:00;False|2022-06-14T02:52:00.7696513+03:00;False|2022-06-14T02:41:52.1543786+03:00;False|2022-06-14T02:41:06.5122067+03:00;False|2022-06-14T02:37:48.5403676+03:00;False|2022-06-14T02:35:36.2967021+03:00;False|2022-06-14T02:33:21.7083187+03:00;False|2022-06-14T02:32:15.2184719+03:00;False|2022-06-14T02:28:28.2960593+03:00;False|2022-06-14T02:26:34.8416057+03:00;False|2022-06-14T02:25:49.0288386+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AzureConnStr">
+      <Value>Data Source=tcp:backenddbserver10238.database.windows.net,1433%3bInitial Catalog=Backend_db%3bUser Id=vlad%40backenddbserver10238%3bPassword=1k1YtpmfCm</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Backend.ApplicationDBContext">
+      <Value>Data Source=tcp:backenddbserver10238.database.windows.net,1433%3bInitial Catalog=Backend_db%3bUser Id=vlad%40backenddbserver10238%3bPassword=1k1YtpmfCm</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

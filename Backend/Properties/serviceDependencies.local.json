@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "StorageConnectionString",
+      "secretStore": "LocalSecretsFile"
+    },
+    "storage2": {
+      "type": "storage.emulator",
+      "connectionId": "ConnectionStrings:AzureConnectionString",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
