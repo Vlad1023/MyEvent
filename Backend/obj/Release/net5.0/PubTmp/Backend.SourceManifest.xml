@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="D:\Diplom\MyEvent\Backend\obj\Release\net5.0\PubTmp\Out\" />
-  <dbfullsql path="D:\Diplom\MyEvent\Backend\obj\Release\net5.0\PubTmp\EFSQLScripts\Backend.ApplicationDBContext.sql" />
-</sitemanifest>
